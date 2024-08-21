@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 1rem;
+    background-color: #0a0c1b;
+    color: white;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (min-width:440px) {
+
+
+.container {
+    border-radius: .5rem;
+    height: fit-content;
+    width: 80vw;
+    background-color: #1c1938;
+}
+.txt {
+    padding: 5rem;
+}
+#mobile_img {
+    display: none;
+    float: right;
+}
+mark {
+    color: #a357d1;
+    background-color: transparent;
+}
+h1 {
+    font-family: Lexend Deca;
+}
+p {
+    font-family: Inter;
+    line-height: 2;
+    color: #c2c0d6;
+}
+#desktop_img {
+    float: right;
+    width: 50%;
+    margin-left: 5rem;
+}
+
+.stats {
+    display: flex;
+}
+.stats div {
+    margin-right: 3rem;
+    line-height: 1;
+}
+.stats p {
+    line-height: 0;
+    letter-spacing: 5px;
+}
+.stats h1 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+}
+@media screen and (max-width:440px) {
+.container {
+        border-radius: .5rem;
+        height: fit-content;
+        width: 80vw;
+        background-color: #1c1938;
+        text-align: center;
+    }
+
+    .txt {
+        padding: 1rem;
+    }
+
+    #mobile_img {
+        width: 100%;
+        display: block;
+        border-top-left-radius: .5rem;
+        border-top-right-radius: .5rem;
+    }
+
+    mark {
+        color: #a357d1;
+        background-color: transparent;
+    }
+
+    h1 {
+        font-family: Lexend Deca;
+    }
+
+    p {
+        font-family: Inter;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #c2c0d6;
+    }
+
+    #desktop_img {
+        display: none;
+        float: right;
+        width: 50%;
+        margin-left: 5rem;
+    }
+
+    .stats {
+        text-align: center;
+        display: block;
+    }
+
+    .stats div {
+        margin-bottom: 3rem;
+        line-height: 1;
+    }
+
+    .stats p {
+        line-height: 0;
+        letter-spacing: 2px;
+        font-size: 1rem;
+    }
+
+    .stats h1 {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+}
